@@ -1,4 +1,4 @@
-multibranchPipelineJob('example') {
+multibranchPipelineJob('Multi-branch Pipeline') {
     triggers {
         periodic(1)
     }    
