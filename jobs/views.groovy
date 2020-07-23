@@ -3,4 +3,12 @@ listView('PythonView') {
     jobs {
         regex(/.*jenkins.*/)
     }
+    columns {
+        status()
+        weather()
+        name()
+        lastSuccess()
+        lastDuration()
+        buildButton()
+    }
 }
