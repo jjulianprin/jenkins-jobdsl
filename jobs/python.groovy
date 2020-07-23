@@ -12,12 +12,11 @@ pipelineJob(project_name) {
             scm {
                 git{
                     remote {
-                        name (repo_name)
-                        url (repo)
+                        name(repo_name)
+                        url(repo)
                     }
                 }
                 scriptPath("Jenkinsfile")
-
             }
         }
     }
