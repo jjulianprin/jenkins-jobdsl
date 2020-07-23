@@ -1,4 +1,4 @@
-project_name = "jenkins-declarativepipeline-python"
+project_name = "Project-a/jenkins-declarativepipeline-python"
 repo = "https://github.com/jjulianprin/test-jenkins-1.git"
 repo_name = "repo"
 
@@ -7,7 +7,7 @@ folder('Project-a') {
     description('Folder for project A')
 }
 
-pipelineJob(Project-a/project_name) {
+pipelineJob(project_name) {
     definition {
         triggers{
             scm('H/1 * * * *')
