@@ -1,5 +1,5 @@
-listView('PythonView') {
-    description ('Python Pipelines')
+listView('Jenkins Named  Projects View') {
+    description ('Jenkins Named Pipelines')
     jobs {
         regex(/.*jenkins.*/)
     }
